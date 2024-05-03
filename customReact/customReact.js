@@ -22,7 +22,7 @@ const reactElement = {
     type: 'a',
     props: {
         href: "https://google.com",
-        // target: "_blank"
+        target: "_blank"
     },
     children: "Google"
 
@@ -30,4 +30,4 @@ const reactElement = {
 
 const mainContainer = document.getElementById("root");
 
-customReader(reactElement,mainContainer);
+customReader(reactElement,mainContainer); // Two args are about what to inject and where to inject. 
